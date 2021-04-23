@@ -1,0 +1,15 @@
+﻿  LeetCode.cpp
+  MinimunPathSum.cpp
+E:\LeetCodeRep\LeetCodeRep\MinimunPathSum.cpp(45,20): warning C4018: “<”: 有符号/无符号不匹配
+E:\LeetCodeRep\LeetCodeRep\MinimunPathSum.cpp(47,21): warning C4018: “<”: 有符号/无符号不匹配
+E:\LeetCodeRep\LeetCodeRep\MinimunPathSum.cpp(55,19): warning C4244: “=”: 从“const _Ty”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=__int64
+          ]
+          and
+          [
+              _Ty=int
+          ]
+  正在生成代码...
+  LeetCode.vcxproj -> E:\LeetCodeRep\LeetCodeRep\Debug\LeetCode.exe
