@@ -140,11 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="LeetCode.cpp" />
-    <ClCompile Include="MinimunPathSum.cpp" />
+    <ClCompile Include="MinimunPathSum\MinimunPathSum.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entrance.h" />
-    <ClInclude Include="MinimunPathSum.h" />
+    <ClInclude Include="MinimunPathSum\MinimunPathSum.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
