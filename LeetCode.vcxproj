@@ -88,6 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\LeetCodeRep\LeetCodeRep\MinimunPathSum;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -141,10 +142,12 @@
   <ItemGroup>
     <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="MinimunPathSum\MinimunPathSum.cpp" />
+    <ClCompile Include="PlusTwoNumber\PlusTwoNumber.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entrance.h" />
     <ClInclude Include="MinimunPathSum\MinimunPathSum.h" />
+    <ClInclude Include="PlusTwoNumber\PlusTwoNumber.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

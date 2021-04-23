@@ -1,13 +1,12 @@
-﻿// LeetCode.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
-
-#include <iostream>
-#include "Entrance.h"
+﻿#include <iostream>
 #include "MinimunPathSum.h"
+#include "PlusTwoNumber/PlusTwoNumber.h"
+
 
 int main()
 {
-	MinimunPathSum res;
+	//MinimunPathSum res;
+	PlusTwoNumber res;
 	Entrance* entrance = &res;
 
 	entrance->Impl();

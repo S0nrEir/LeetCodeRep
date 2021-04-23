@@ -21,12 +21,18 @@
     <ClCompile Include="MinimunPathSum\MinimunPathSum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="PlusTwoNumber\PlusTwoNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entrance.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="MinimunPathSum\MinimunPathSum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlusTwoNumber\PlusTwoNumber.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

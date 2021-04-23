@@ -1,2 +1,4 @@
 D:\LeetCode\LeetCode\Debug\LeetCode.exe
 D:\LeetCode\LeetCode\Debug\LeetCode.pdb
+E:\LeetCodeRep\LeetCodeRep\Debug\LeetCode.exe
+E:\LeetCodeRep\LeetCodeRep\Debug\LeetCode.pdb
