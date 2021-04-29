@@ -1,0 +1,4 @@
+﻿  PlusTwoNumber.cpp
+E:\LeetCodeRep\LeetCodeRep\PlusTwoNumber\PlusTwoNumber.cpp(33): warning C4172: 返回局部变量或临时变量的地址: res
+E:\LeetCodeRep\LeetCodeRep\PlusTwoNumber\PlusTwoNumber.cpp(59): warning C4172: 返回局部变量或临时变量的地址: res
+  LeetCode.vcxproj -> E:\LeetCodeRep\LeetCodeRep\Debug\LeetCode.exe
