@@ -141,6 +141,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="4Sum\4Sum.cpp" />
+    <ClCompile Include="BinaryTreeLevelOrderTraversal\BinaryTreeLevelOrderTraversal.cpp" />
+    <ClCompile Include="BinaryTreeLevelOrderTraversal\TreeNode.cpp" />
+    <ClCompile Include="DecodeXORedArray\DecodeXORedArray.cpp" />
     <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="LongestPalindromicSubString\LongestPalindromicSubString.cpp" />
     <ClCompile Include="MinimunPathSum\MinimunPathSum.cpp" />
@@ -148,6 +151,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="4Sum\4Sum.h" />
+    <ClInclude Include="BinaryTreeLevelOrderTraversal\BinaryTreeLevelOrderTraversal.h" />
+    <ClInclude Include="BinaryTreeLevelOrderTraversal\TreeNode.h" />
+    <ClInclude Include="DecodeXORedArray\DecodeXORedArray.h" />
     <ClInclude Include="Entrance.h" />
     <ClInclude Include="LongestPalindromicSubString\LongestPalindromicSubString.h" />
     <ClInclude Include="MinimunPathSum\MinimunPathSum.h" />
