@@ -24,6 +24,24 @@
     <ClCompile Include="PlusTwoNumber\PlusTwoNumber.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LongestPalindromicSubString\LongestPalindromicSubString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4Sum\4Sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DecodeXORedArray\DecodeXORedArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeLevelOrderTraversal\BinaryTreeLevelOrderTraversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeLevelOrderTraversal\TreeNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeafSimilarTrees\LeafSimilarTrees.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entrance.h">
@@ -33,6 +51,24 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="PlusTwoNumber\PlusTwoNumber.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LongestPalindromicSubString\LongestPalindromicSubString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="4Sum\4Sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DecodeXORedArray\DecodeXORedArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeLevelOrderTraversal\BinaryTreeLevelOrderTraversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeLevelOrderTraversal\TreeNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LeafSimilarTrees\LeafSimilarTrees.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

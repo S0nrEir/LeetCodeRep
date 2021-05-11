@@ -140,12 +140,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="4Sum\4Sum.cpp" />
+    <ClCompile Include="BinaryTreeLevelOrderTraversal\BinaryTreeLevelOrderTraversal.cpp" />
+    <ClCompile Include="BinaryTreeLevelOrderTraversal\TreeNode.cpp" />
+    <ClCompile Include="DecodeXORedArray\DecodeXORedArray.cpp" />
+    <ClCompile Include="LeafSimilarTrees\LeafSimilarTrees.cpp" />
     <ClCompile Include="LeetCode.cpp" />
+    <ClCompile Include="LongestPalindromicSubString\LongestPalindromicSubString.cpp" />
     <ClCompile Include="MinimunPathSum\MinimunPathSum.cpp" />
     <ClCompile Include="PlusTwoNumber\PlusTwoNumber.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="4Sum\4Sum.h" />
+    <ClInclude Include="BinaryTreeLevelOrderTraversal\BinaryTreeLevelOrderTraversal.h" />
+    <ClInclude Include="BinaryTreeLevelOrderTraversal\TreeNode.h" />
+    <ClInclude Include="DecodeXORedArray\DecodeXORedArray.h" />
     <ClInclude Include="Entrance.h" />
+    <ClInclude Include="LeafSimilarTrees\LeafSimilarTrees.h" />
+    <ClInclude Include="LongestPalindromicSubString\LongestPalindromicSubString.h" />
     <ClInclude Include="MinimunPathSum\MinimunPathSum.h" />
     <ClInclude Include="PlusTwoNumber\PlusTwoNumber.h" />
   </ItemGroup>
