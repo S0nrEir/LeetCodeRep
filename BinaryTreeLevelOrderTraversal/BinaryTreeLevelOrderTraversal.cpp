@@ -83,15 +83,6 @@ vector<vector<int>> BinaryTreeLevelOrderTraversal::log_tree_level(TreeNode* root
 			if (node.right != nullptr)
 				_queue.push(*node.right);
 		}
-		//next.push_back(node.val);
-		//if (node.left != nullptr)
-		//	_queue.push(*node.left);
-
-		//if (node.right != nullptr)
-		//	_queue.push(*node.right);
-
-		//_queue.pop();
-		//_vec.push_back(next);
 	}
 	return _vec;
 }

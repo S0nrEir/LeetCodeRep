@@ -4,6 +4,9 @@
 #include "LongestPalindromicSubString/LongestPalindromicSubString.h"
 #include "4Sum/4Sum.h"
 #include "BinaryTreeLevelOrderTraversal//BinaryTreeLevelOrderTraversal.h"
+#include "LeafSimilarTrees/LeafSimilarTrees.h"
+
+using namespace std;
 
 int main()
 {
@@ -11,7 +14,9 @@ int main()
 	//PlusTwoNumber res;
 	//LongestPalindromicSubString res;
 	//_4Sum res;
-	BinaryTreeLevelOrderTraversal res;
+	//BinaryTreeLevelOrderTraversal res;
+
+	LeafSimilarTrees res;
 	Entrance* entrance = &res;
 
 	entrance->Impl();

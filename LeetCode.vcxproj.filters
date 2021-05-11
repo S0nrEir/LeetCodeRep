@@ -39,6 +39,9 @@
     <ClCompile Include="BinaryTreeLevelOrderTraversal\TreeNode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="LeafSimilarTrees\LeafSimilarTrees.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entrance.h">
@@ -63,6 +66,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="BinaryTreeLevelOrderTraversal\TreeNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LeafSimilarTrees\LeafSimilarTrees.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
