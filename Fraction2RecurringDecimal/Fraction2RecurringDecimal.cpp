@@ -42,10 +42,12 @@ string Fraction2RecurringDecimal::fraction_2_decimal(int numerator, int denomina
 	long long denom = static_cast<long long>(denominator);
 
 	//处理正负号，一正一负取负号
-	if ((num > 0) ^ (denom > 0))result.push_back('-');
+	if ((num > 0) ^ (denom > 0))
+		result.push_back('-');
 
 	//分子分母全部转换为正数
-	num = llabs(num); denom = llabs(denom);
+	num = llabs(num); 
+	denom = llabs(denom);
 
 	//处理整数部分
 	result.append(to_string(num / denom));
@@ -59,8 +61,9 @@ string Fraction2RecurringDecimal::fraction_2_decimal(int numerator, int denomina
 	int index = result.size() - 1;//获得小数点的下标
 	unordered_map<int, int> record;//map用来记录出现重复数的下标，然后将'('插入到重复数前面
 
+	//小数部分：余数不为0且余数还没有出现重复数字
 	while (num && record.count(num) == 0)
-	{   //小数部分：余数不为0且余数还没有出现重复数字
+	{
 		record[num] = ++index;
 		num *= 10;//余数扩大10倍，然后求商，和草稿本上运算方法是一样的
 		result += to_string(num / denom);
