@@ -5,6 +5,7 @@
 #include "4Sum/4Sum.h"
 #include "BinaryTreeLevelOrderTraversal//BinaryTreeLevelOrderTraversal.h"
 #include "LeafSimilarTrees/LeafSimilarTrees.h"
+#include "Fraction2RecurringDecimal/Fraction2RecurringDecimal.h"
 
 using namespace std;
 
@@ -15,8 +16,9 @@ int main()
 	//LongestPalindromicSubString res;
 	//_4Sum res;
 	//BinaryTreeLevelOrderTraversal res;
+	//LeafSimilarTrees res;
 
-	LeafSimilarTrees res;
+	Fraction2RecurringDecimal res;
 	Entrance* entrance = &res;
 
 	entrance->Impl();
