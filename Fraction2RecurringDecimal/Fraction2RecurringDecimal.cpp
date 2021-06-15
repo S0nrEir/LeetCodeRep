@@ -1,4 +1,4 @@
-#include "Fraction2RecurringDecimal.h"
+ï»¿#include "Fraction2RecurringDecimal.h"
 #include <iostream>
 #include <string>
 #include <unordered_map>
@@ -30,44 +30,44 @@ void Fraction2RecurringDecimal::Impl()
 string Fraction2RecurringDecimal::fraction_2_decimal(int numerator, int denominator)
 {
 	if (denominator == 0)
-		return "";//±ß½çÌõ¼ş£¬·ÖÄ¸Îª0
+		return "";//è¾¹ç•Œæ¡ä»¶ï¼Œåˆ†æ¯ä¸º0
 
 	if (numerator == 0)
-		return "0";//±ß½çÌõ¼ş£¬·Ö×ÓÎª0
+		return "0";//è¾¹ç•Œæ¡ä»¶ï¼Œåˆ†å­ä¸º0
 
 	string result;
 
-	//×ª»»Îªlonglong·ÀÖ¹Òç³ö
+	//è½¬æ¢ä¸ºlonglongé˜²æ­¢æº¢å‡º
 	long long num = static_cast<long long>(numerator);
 	long long denom = static_cast<long long>(denominator);
 
-	//´¦ÀíÕı¸ººÅ£¬Ò»ÕıÒ»¸ºÈ¡¸ººÅ
+	//å¤„ç†æ­£è´Ÿå·ï¼Œä¸€æ­£ä¸€è´Ÿå–è´Ÿå·
 	if ((num > 0) ^ (denom > 0))result.push_back('-');
 
-	//·Ö×Ó·ÖÄ¸È«²¿×ª»»ÎªÕıÊı
+	//åˆ†å­åˆ†æ¯å…¨éƒ¨è½¬æ¢ä¸ºæ­£æ•°
 	num = llabs(num); denom = llabs(denom);
 
-	//´¦ÀíÕûÊı²¿·Ö
+	//å¤„ç†æ•´æ•°éƒ¨åˆ†
 	result.append(to_string(num / denom));
 
-	//´¦ÀíĞ¡Êı²¿·Ö
+	//å¤„ç†å°æ•°éƒ¨åˆ†
 	num %= denom;
 	if (num == 0)
-		return result;//ÓàÊıÎª0£¬±íÊ¾Õû³ıÁË£¬Ö±½Ó·µ»Ø½á¹û
+		return result;//ä½™æ•°ä¸º0ï¼Œè¡¨ç¤ºæ•´é™¤äº†ï¼Œç›´æ¥è¿”å›ç»“æœ
 
-	result.push_back('.');//ÓàÊı²»Îª0£¬Ìí¼ÓĞ¡Êıµã
-	int index = result.size() - 1;//»ñµÃĞ¡ÊıµãµÄÏÂ±ê
-	unordered_map<int, int> record;//mapÓÃÀ´¼ÇÂ¼³öÏÖÖØ¸´ÊıµÄÏÂ±ê£¬È»ºó½«'('²åÈëµ½ÖØ¸´ÊıÇ°Ãæ
+	result.push_back('.');//ä½™æ•°ä¸ä¸º0ï¼Œæ·»åŠ å°æ•°ç‚¹
+	int index = result.size() - 1;//è·å¾—å°æ•°ç‚¹çš„ä¸‹æ ‡
+	unordered_map<int, int> record;//mapç”¨æ¥è®°å½•å‡ºç°é‡å¤æ•°çš„ä¸‹æ ‡ï¼Œç„¶åå°†'('æ’å…¥åˆ°é‡å¤æ•°å‰é¢
 
 	while (num && record.count(num) == 0)
-	{   //Ğ¡Êı²¿·Ö£ºÓàÊı²»Îª0ÇÒÓàÊı»¹Ã»ÓĞ³öÏÖÖØ¸´Êı×Ö
+	{   //å°æ•°éƒ¨åˆ†ï¼šä½™æ•°ä¸ä¸º0ä¸”ä½™æ•°è¿˜æ²¡æœ‰å‡ºç°é‡å¤æ•°å­—
 		record[num] = ++index;
-		num *= 10;//ÓàÊıÀ©´ó10±¶£¬È»ºóÇóÉÌ£¬ºÍ²İ¸å±¾ÉÏÔËËã·½·¨ÊÇÒ»ÑùµÄ
+		num *= 10;//ä½™æ•°æ‰©å¤§10å€ï¼Œç„¶åæ±‚å•†ï¼Œå’Œè‰ç¨¿æœ¬ä¸Šè¿ç®—æ–¹æ³•æ˜¯ä¸€æ ·çš„
 		result += to_string(num / denom);
 		num %= denom;
 	}
 
-	//³öÏÖÑ­»·ÓàÊı£¬Ö±½ÓÔÚÖØ¸´Êı×ÖÇ°ÃæÌí¼Ó'(',×Ö·û´®Ä©Î²Ìí¼Ó')'
+	//å‡ºç°å¾ªç¯ä½™æ•°ï¼Œç›´æ¥åœ¨é‡å¤æ•°å­—å‰é¢æ·»åŠ '(',å­—ç¬¦ä¸²æœ«å°¾æ·»åŠ ')'
 	if (record.count(num) == 1)
 	{
 		result.insert(record[num], "(");
