@@ -143,7 +143,9 @@
     <ClCompile Include="4Sum\4Sum.cpp" />
     <ClCompile Include="BinaryTreeLevelOrderTraversal\BinaryTreeLevelOrderTraversal.cpp" />
     <ClCompile Include="BinaryTreeLevelOrderTraversal\TreeNode.cpp" />
+    <ClCompile Include="ContainerWithMostWater\ContainerWithMostWater.cpp" />
     <ClCompile Include="DecodeXORedArray\DecodeXORedArray.cpp" />
+    <ClCompile Include="Fraction2RecurringDecimal\Fraction2RecurringDecimal.cpp" />
     <ClCompile Include="LeafSimilarTrees\LeafSimilarTrees.cpp" />
     <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="LongestPalindromicSubString\LongestPalindromicSubString.cpp" />
@@ -154,8 +156,10 @@
     <ClInclude Include="4Sum\4Sum.h" />
     <ClInclude Include="BinaryTreeLevelOrderTraversal\BinaryTreeLevelOrderTraversal.h" />
     <ClInclude Include="BinaryTreeLevelOrderTraversal\TreeNode.h" />
+    <ClInclude Include="ContainerWithMostWater\ContainerWithMostWater.h" />
     <ClInclude Include="DecodeXORedArray\DecodeXORedArray.h" />
     <ClInclude Include="Entrance.h" />
+    <ClInclude Include="Fraction2RecurringDecimal\Fraction2RecurringDecimal.h" />
     <ClInclude Include="LeafSimilarTrees\LeafSimilarTrees.h" />
     <ClInclude Include="LongestPalindromicSubString\LongestPalindromicSubString.h" />
     <ClInclude Include="MinimunPathSum\MinimunPathSum.h" />

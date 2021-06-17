@@ -42,6 +42,12 @@
     <ClCompile Include="LeafSimilarTrees\LeafSimilarTrees.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Fraction2RecurringDecimal\Fraction2RecurringDecimal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ContainerWithMostWater\ContainerWithMostWater.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entrance.h">
@@ -69,6 +75,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="LeafSimilarTrees\LeafSimilarTrees.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Fraction2RecurringDecimal\Fraction2RecurringDecimal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ContainerWithMostWater\ContainerWithMostWater.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
