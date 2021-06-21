@@ -40,19 +40,20 @@ vector<vector<int>> CombinationSum::combination_sum(vector<int>& candidates, int
 	if (size == 0)
 		return res;
 
-	//target等于唯一元素
-	if (size == 1)
-	{
-		if (candidates[0] == target)
-		{
-			vector<int> vec;
-			vec.push_back(candidates[0]);
-			res.push_back(vec);
-			return res;
-		}
-		else
-			return res;
-	}
+	////target等于唯一元素
+	//if (size == 1)
+	//{
+	//	if (candidates[0] == target)
+	//	{
+	//		vector<int> vec;
+	//		vec.push_back(candidates[0]);
+	//		res.push_back(vec);
+	//		return res;
+	//	}
+	//	else
+	//		return res;
+	//}
+
 	vector<int> temp;
 	sort(candidates.begin(), candidates.end());
 	dfs(0, target, candidates, temp ,res);
