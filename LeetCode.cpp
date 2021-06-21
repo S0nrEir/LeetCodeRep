@@ -1,4 +1,6 @@
-﻿#include <iostream>
+﻿#pragma region include
+
+#include <iostream>
 #include "MinimunPathSum.h"
 #include "PlusTwoNumber/PlusTwoNumber.h"
 #include "LongestPalindromicSubString/LongestPalindromicSubString.h"
@@ -7,6 +9,9 @@
 #include "LeafSimilarTrees/LeafSimilarTrees.h"
 #include "Fraction2RecurringDecimal/Fraction2RecurringDecimal.h"
 #include "ContainerWithMostWater/ContainerWithMostWater.h"
+#include "CombinationSum/CombinationSum.h"
+
+#pragma endregion
 
 using namespace std;
 
@@ -19,7 +24,8 @@ int main()
 	//BinaryTreeLevelOrderTraversal res;
 	//LeafSimilarTrees res;
 	//Fraction2RecurringDecimal res;
-	ContainerWithMostWater res;
+	//ContainerWithMostWater res;
+	CombinationSum res;
 
 	Entrance* entrance = &res;
 
