@@ -48,6 +48,9 @@
     <ClCompile Include="ContainerWithMostWater\ContainerWithMostWater.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CombinationSum\CombinationSum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entrance.h">
@@ -81,6 +84,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="ContainerWithMostWater\ContainerWithMostWater.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CombinationSum\CombinationSum.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

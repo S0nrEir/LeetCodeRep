@@ -143,6 +143,7 @@
     <ClCompile Include="4Sum\4Sum.cpp" />
     <ClCompile Include="BinaryTreeLevelOrderTraversal\BinaryTreeLevelOrderTraversal.cpp" />
     <ClCompile Include="BinaryTreeLevelOrderTraversal\TreeNode.cpp" />
+    <ClCompile Include="CombinationSum\CombinationSum.cpp" />
     <ClCompile Include="ContainerWithMostWater\ContainerWithMostWater.cpp" />
     <ClCompile Include="DecodeXORedArray\DecodeXORedArray.cpp" />
     <ClCompile Include="Fraction2RecurringDecimal\Fraction2RecurringDecimal.cpp" />
@@ -156,6 +157,7 @@
     <ClInclude Include="4Sum\4Sum.h" />
     <ClInclude Include="BinaryTreeLevelOrderTraversal\BinaryTreeLevelOrderTraversal.h" />
     <ClInclude Include="BinaryTreeLevelOrderTraversal\TreeNode.h" />
+    <ClInclude Include="CombinationSum\CombinationSum.h" />
     <ClInclude Include="ContainerWithMostWater\ContainerWithMostWater.h" />
     <ClInclude Include="DecodeXORedArray\DecodeXORedArray.h" />
     <ClInclude Include="Entrance.h" />
