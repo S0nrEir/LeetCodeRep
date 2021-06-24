@@ -149,6 +149,7 @@
     <ClCompile Include="Fraction2RecurringDecimal\Fraction2RecurringDecimal.cpp" />
     <ClCompile Include="LeafSimilarTrees\LeafSimilarTrees.cpp" />
     <ClCompile Include="LeetCode.cpp" />
+    <ClCompile Include="LetterCombinationsOfAPhoneNumber\LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LongestPalindromicSubString\LongestPalindromicSubString.cpp" />
     <ClCompile Include="MinimunPathSum\MinimunPathSum.cpp" />
     <ClCompile Include="PlusTwoNumber\PlusTwoNumber.cpp" />
@@ -163,6 +164,7 @@
     <ClInclude Include="Entrance.h" />
     <ClInclude Include="Fraction2RecurringDecimal\Fraction2RecurringDecimal.h" />
     <ClInclude Include="LeafSimilarTrees\LeafSimilarTrees.h" />
+    <ClInclude Include="LetterCombinationsOfAPhoneNumber\LetterCombinationsOfAPhoneNumber.h" />
     <ClInclude Include="LongestPalindromicSubString\LongestPalindromicSubString.h" />
     <ClInclude Include="MinimunPathSum\MinimunPathSum.h" />
     <ClInclude Include="PlusTwoNumber\PlusTwoNumber.h" />
