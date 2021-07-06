@@ -11,6 +11,7 @@
 #include "ContainerWithMostWater/ContainerWithMostWater.h"
 #include "CombinationSum/CombinationSum.h"
 #include "LetterCombinationsOfAPhoneNumber/LetterCombinationsOfAPhoneNumber.h"
+#include "WordSearch/WordSearch.h"
 
 #pragma endregion
 
@@ -27,8 +28,9 @@ int main()
 	//Fraction2RecurringDecimal res;
 	//ContainerWithMostWater res;
 	//CombinationSum res;
-	LetterCombinationsOfAPhoneNumber res;
+	//LetterCombinationsOfAPhoneNumber res;
 
+	WordSearch res;
 	Entrance* entrance = &res;
 
 	entrance->Impl();
