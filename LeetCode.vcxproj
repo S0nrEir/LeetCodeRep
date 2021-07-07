@@ -153,6 +153,7 @@
     <ClCompile Include="LongestPalindromicSubString\LongestPalindromicSubString.cpp" />
     <ClCompile Include="MinimunPathSum\MinimunPathSum.cpp" />
     <ClCompile Include="PlusTwoNumber\PlusTwoNumber.cpp" />
+    <ClCompile Include="WordSearch\WordSearch.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="4Sum\4Sum.h" />
@@ -168,6 +169,7 @@
     <ClInclude Include="LongestPalindromicSubString\LongestPalindromicSubString.h" />
     <ClInclude Include="MinimunPathSum\MinimunPathSum.h" />
     <ClInclude Include="PlusTwoNumber\PlusTwoNumber.h" />
+    <ClInclude Include="WordSearch\WordSearch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
