@@ -10,6 +10,8 @@
 #include "Fraction2RecurringDecimal/Fraction2RecurringDecimal.h"
 #include "ContainerWithMostWater/ContainerWithMostWater.h"
 #include "CombinationSum/CombinationSum.h"
+#include "LetterCombinationsOfAPhoneNumber/LetterCombinationsOfAPhoneNumber.h"
+#include "WordSearch/WordSearch.h"
 
 #pragma endregion
 
@@ -25,8 +27,10 @@ int main()
 	//LeafSimilarTrees res;
 	//Fraction2RecurringDecimal res;
 	//ContainerWithMostWater res;
-	CombinationSum res;
+	//CombinationSum res;
+	//LetterCombinationsOfAPhoneNumber res;
 
+	WordSearch res;
 	Entrance* entrance = &res;
 
 	entrance->Impl();
